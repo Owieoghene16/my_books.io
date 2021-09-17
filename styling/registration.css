@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #56a5eb;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 90px;
+}
+
+p {
+    color: #a7c7e4;
+    margin-right: 235px;
+}
+
+.fill {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    font-family: verdana;
+
+}
+.icon {
+    margin-top: 50px;
+    color: red;
+    text-align: right;
+}
+
+.email {
+    color: #56a5eb;
+    margin-right: 360px;
+}
+
+.username {
+    color: #56a5eb;
+    margin-right: 322px;
+
+}
+
+.password {
+    color: #56a5eb;
+    margin-right: 327px;
+}
+
+
+
+input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-style: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]:hover {
+    border: 0.5px solid yellow;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-style: none;
+}
+input[type=text]:hover {
+    border: 0.5px solid yellow;
+}
+
+.create {
+    width: 30%;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: #56a5eb;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.create:hover {
+    cursor: pointer;
+    box-shadow: aliceblue;
+    background-color: #fafad2;
+    transform: translateY(2px);
+    transition: transform 150ms
+}
+.re-enter {
+    color: #56a5eb;
+    margin-right: 264px;
+}
+
+.log {
+    color: #56a5eb;
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 80px;
+}
+
+.contain {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.checkbox {
+    color: #a7c7e4;
+    margin-right: 289px;
+}

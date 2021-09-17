@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Books</title>
+    <link rel="stylesheet" href="../styling/profile.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+ </head>
+<body>
+    <div class="left">
+        <div class="space">
+            <a href="./homepage.html" class="home"><i class="fa fa-home"></i> Home</a>
+        </div>
+        <div class="space">
+            <a href="./profile.html" class="profile"><i class="fa fa-user"></i> Profile</a>
+        </div>
+        <div class="space">
+            <a href="./books.html" class="roles"><i class="fa fa-envelope"> Books</i></a> 
+        </div>
+        <div class="space">
+            <a href="#" class="logout"><i class="fa fa-sign-out"></i>Log-out</a>
+        </div> 
+    </div>
+    <div class="main">
+        <div>
+            <div>
+                <p class="welcome">About Me</p>
+            </div>
+            <div class="container">
+                <img src="../images/homee.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="flex-center flex-column">
+               <a href="./increaselevel.html" class="pro">Increase  Level</a>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Username</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Telephone No</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your no">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country" class="select">
+              <option value="australia">Nigeria</option>
+              <option value="canada">Canada</option>
+              <option value="usa">Australia</option>
+              <option value="usa">Ghana</option>
+              <option value="usa">England</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="Update" id="Update">
+        </form>
+        <div class="space">
+            <p class="level">Hello books Levels</p>
+            <a href= "./homepage.html" class="progressbar">1</a>
+        </div>
+    </div>
+</body>
+</html>

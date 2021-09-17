@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0,0, 0, 0.8)), url(../images/ima.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  padding: 35px 0;
+  display: end;
+  margin: auto;
+  text-align: end;
+  align-self: end;
+  justify-content: space-between;
+}
+
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #56a5eb;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 90%;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: blue;
+  margin-top: 40px;
+}
+
+.content h {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #56a5eb;
+  font-family: verdana;
+}
+
+.typewriter{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.typewriter h2 {
+  color: #56a5eb;
+  font-family: monospace;
+  font-size: 30px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-line; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.space {
+  margin-top: 90px;
+}
+
+.button {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #56a5eb;
+  background: transparent;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+span {
+  background: #56a5eb;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.button:hover span{
+  width: 100%;
+}
+.button:hover {
+  border: none;
+}

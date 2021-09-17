@@ -1,0 +1,181 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.fieldset {
+    width: 90px;
+    height: 300px;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.welcome {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: verdana;
+    color: #56a5eb;
+}
+
+.home {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: verdana;
+    font-size: 30px;
+    text-decoration: none;
+    color: #56a5eb;
+}
+
+.profile {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: verdana;
+    color: #56a5eb;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.roles {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: verdana;
+    font-size: 30px;
+    text-decoration: none;
+    color: #56a5eb;
+}
+
+.logout {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: verdana;
+    font-size: 30px;
+    text-decoration: none;
+    color: #56a5eb;
+}
+
+.home:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    transition: transform 150ms
+}
+
+.roles:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    transition: transform 150ms;
+}
+
+.logout:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    transition: transform 150ms
+}
+
+.profile:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+    transition: transform 150ms
+}
+
+.space {
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.left {
+    padding-top: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+    float: left;
+    width: 13.7%;
+    height: 563px; /* The width is 20%, by default */
+}
+  
+.main {
+    background-color: aliceblue;
+    padding: 20px;
+    float: left;
+    width: 86.3%; 
+    height: 563px;
+    text-align: center;
+}
+  
+  /* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .main {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+
+.welcome {
+    font-size: 50px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainleft {
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 220px;
+    height: 350px;
+    margin-left: 30px;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: #56a5eb;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.mainleft:hover {
+    background-color: rgb(238, 235, 236);
+}
+.mainmiddle {
+    color: red;
+    margin-top: 90px;
+    width: 200px;
+    border: 0.1rem solid #56a5eb;
+
+}
+
+.mainright {
+    text-align: right;
+    float: right;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 220px;
+    height: 350px;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    margin-right: 30px;
+    background-color: white;
+    color: #56a5eb;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.mainright:hover {
+    background-color: rgb(238, 235, 236);
+}
+
+.maindesign {
+    margin-top: 30px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Books</title>
+    <link rel="stylesheet" href="../styling/registration.css"/>
+</head>
+<body> 
+    <div>
+        <h1>Create Books Account</h1>
+    </div>
+    <div>
+        <p>Register with your email</p>
+        <p1 class="fill" id="fill"></p1>
+    </div>
+    <div>
+        <form action="./homepage.html">
+            <label class="username" for="email">Username:</label><br>
+            <input type="text" id="username" name="email"><br><br>
+            <label class="email" for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label class="password" for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <label class="re-enter" for="password">Re-enter Password:</label><br>
+            <input type="password" id="re-enterpassword" name="password"><br><br>
+            <div class="checkbox">
+                <input type="checkbox" name="remember">Remember me
+            </div>
+            <input type="submit" class="create" id="create_account" value="Create Account">
+        </form>
+    </div>
+    <div>
+        <p2>Already Registered?</p2>
+        <a class = "log" href="./login.html">Log In</a>
+    </div>
+    <script src="../javascript/user.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #56a5eb;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-right: 16px;
+}
+
+p {
+    color: #a7c7e4;
+    margin-bottom: 20px;
+    margin-right: 135px;
+}
+
+
+.email {
+    color: #56a5eb;
+    margin-right: 360px;
+}
+
+.password {
+    color: #56a5eb;
+    margin-right: 330px;
+}
+
+
+input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-style: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]:hover {
+    border: 0.5px solid yellow;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-style: none;
+}
+input[type=text]:hover {
+    border: 0.5px solid yellow;
+}
+
+input[type=submit] {
+    width: 30%;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: #56a5eb;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    cursor: pointer;
+    box-shadow: aliceblue;
+    background-color: #fafad2;
+    transform: translateY(2px);
+    transition: transform 150ms
+}
+
+.create {
+    color: #56a5eb;
+    text-decoration: none;
+}
